@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown with Icons</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.21.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Dropdown container -->
+<div class="dropdown">
+    <!-- Dropdown button with Bootstrap icon -->
+    <!-- <button class="dropdown-button" onclick="toggleDropdown()">
+        <i class="bi bi-gear"></i> Options
+    </button> -->
+    <button class="btn btn-info dropdown-toggle" onclick="toggleDropdown()" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+      </button>
+    
+    
+    <!-- Dropdown content -->
+    <div class="dropdown-content" id="myDropdown">
+        <!-- Dropdown items with icons -->
+        <a href="#" class="dropdown-item"><i class="bi bi-alarm"></i> option 1</a>
+        <a href="#" class="dropdown-item"><i class="bi bi-calendar"></i> option 2</a>
+        <a href="#" class="dropdown-item"><i class="bi bi-envelope"></i> option 3</a>
+        <a href="#" class="dropdown-item"><i class="bi bi-envelope"></i> option 4</a>
+        <a href="#" class="dropdown-item"><i class="bi bi-envelope"></i> option 5</a>
+    </div>
+</div>
+
+<!-- Bootstrap JS (optional, but required for dropdown functionality) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.dropdown {
+    padding: 100px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the dropdown button */
+.dropdown-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #b88282;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+    /* display: none;
+    position: absolute; */
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style for the dropdown items on hover */
+.dropdown-item:hover {
+    background-color: #ddd;
+}
